@@ -8,12 +8,7 @@ class EmailParser
   #@@all = []
 
   def parse(emails)
-    puts emails
-    emails.each do |email|
-      email.split!(/,\s|\s/)
-      #@@all << email
-    end
-    emails
+    emails.split(/,\s|\s/)
   end
 
 end
