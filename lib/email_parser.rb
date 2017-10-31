@@ -12,9 +12,9 @@ class EmailParser
       email.split!(/,\s|\s/)
       @@all << email
     end
-    email
+    @@all
 
-    
+
   end
 
 end
