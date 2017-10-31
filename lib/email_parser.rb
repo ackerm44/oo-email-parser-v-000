@@ -13,7 +13,7 @@ class EmailParser
       @@all << email
     end
     @@all
-    
+    puts @@all
   end
 
 end
