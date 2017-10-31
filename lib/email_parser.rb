@@ -8,5 +8,6 @@ class EmailParser
   def parse(emails)
     emails.split(/,\s|\s/)
   end
+  emails
 
 end
