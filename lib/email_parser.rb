@@ -5,15 +5,14 @@
 class EmailParser
   attr_accessor :emails
 
-  @@all = []
+  #@@all = []
 
   def parse(emails)
     emails.each do |email|
       email.split!(/,\s|\s/)
-      @@all << email
+      #@@all << email
     end
-    @@all
-    puts @@all
+    emails
   end
 
 end
