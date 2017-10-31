@@ -13,8 +13,7 @@ class EmailParser
       @@all << email
     end
     @@all
-
-
+    
   end
 
 end
